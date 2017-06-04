@@ -1,0 +1,30 @@
+if (former=true){
+			System.out.println("We are the strong proud defenders of the ways of old, we have ruled these lands in spite of the "
+					+ "unyeilding forces at our boarders. For thousands years we have held our boarders never expanding only holding, "
+					+ "Forever holding. Infighting, disease, subsequents, and natural desaster we have seen it through and we will see "
+					+ "it through for another thousand years");
+			boolean formerspecies=false;
+			System.out.println("");
+			System.out.println("What species were you born as? if you would like to know more type 'info'");
+			System.out.println("a rat");
+			System.out.println("a anole");
+			System.out.println("or a squirrel");
+	
+			
+			while (formerspecies=false){
+				answer=choice.next();
+			if (choice.equals("info")){
+				System.out.println("rats, limetless in ");
+				System.out.println("and fend for themselves using whatever weapon they can mangle together");
+				System.out.println("Murlok: +2 HP, +2 damage +2 armor, +5 energy, +5 mastery");
+				System.out.println(" ");
+				System.out.println("Imps may seem cruel and sadistic, but once you get to know them you learn they're rather playfull, its just");
+				System.out.println("some may not appreciate their joking nature");
+				System.out.println("Imp: +2HP, +2 Mdamage, +2 Marmor, +5 mana, +5 intel");
+				System.out.println(" ");
+				System.out.println("Pegasan they say are descendants of the pegasus who got wipped out in the great extinction, pegasan are samller");
+				System.out.println("but no less cunning and friendly in nature");
+				System.out.println("Pegasan: +1 everything except, +3 mana & energy, +2 mastery & intel");
+			}
+				}
+		}
