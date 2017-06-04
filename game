@@ -7,6 +7,11 @@ public class game {
 		Scanner choice = new Scanner(System.in);
 		String answer;
 		
+		Cpu Ratman = new Cpu();
+		//To see CPU stats use this and say test
+		//Ratman.PbattleStats(2, "Ratman");
+		
+		
 		you.level = 1;
 		you.rep = 0;
 		you.Mrep = 0;
@@ -71,9 +76,9 @@ public class game {
 			boolean secondChoice = false;
 			System.out.println("");
 			System.out.println("What species were you born as? if you would like to know more type 'info'");
-			System.out.println("a rat");
-			System.out.println("an anole");
-			System.out.println("or a squirrel");
+			System.out.println("Rat");
+			System.out.println("Anole");
+			System.out.println("Squirrel");
 	
 			
 			while (secondChoice==false){
@@ -121,8 +126,8 @@ public class game {
 		if (sub == true){
 			double script = (int)(Math.random()* 3);
 			if (script == 0){ //racist one
-			System.out.println("We are a proud, smart and strong, though the former think otherwise, its time for a new power to rule, we are still learning but with our working together.");
-			System.out.println("we can vanquish any foe. For century's the former have us as formidable foe; however, we know we are more powerful Though the Former are strong, there is an oportune moment to strike, if we so choose to take it");
+			System.out.println("We are a proud, smart and strong. Though the former think otherwise, its time for a new power to rule, we are still learning but with our working together.");
+			System.out.println("we can vanquish any foe. For century's the former have us as formidable foe; however, we know we are more powerful. Though the Former are strong, there is an oportune moment to strike, if we so choose to take it");
 			System.out.println(" ");
 			
 			}
@@ -149,7 +154,7 @@ public class game {
 					System.out.println("Imp: +2HP, +2 Mdamage, +2 Marmor, +5 mana, +5 intel");
 					System.out.println(" ");
 					System.out.println("Pegasan they say are descendants of the pegasus who got wipped out in the great extinction, pegasan are smaller");
-					System.out.println("but no less cunning and friendly in nature");
+					System.out.println("but no less cunning and friendly to nature");
 					System.out.println("Pegasan: +1 everything except, +3 mana & energy, +2 mastery & intel (no extra speed)");
 				}else if (answer.equals("Murlok")){
 					you.armor += 2;
