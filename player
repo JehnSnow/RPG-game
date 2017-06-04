@@ -12,13 +12,20 @@ public class player {
 	int rep;
 	int Mrep;
 	int level;
+	int intel;
+	int mastery;
+	int speed;
 	
-	int human;
-	int orc;
-	int elf;
+	int rat;
+	int anole;
+	int squirrel;
+	
+	int murlok;
+	int imp;
+	int pegasan;
 	
 	void player(){
-		int hp = 1;
+		int hp = 5;
 		int damage = 1;
 		int Mdamage = 1;
 		int armor = 1;
