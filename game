@@ -12,28 +12,37 @@ public class game {
 		you.Mrep = 0;
 		
 		boolean firstChoice = false;
+		boolean playercreator;
+		boolean former = false;
+		boolean subsequent = true;
 		
 		System.out.println("options you can type will be given to you like 'hello' (so that means typing hello will send up an option");
 		System.out.println(" ");
-		System.out.println("Were you born before (Real critter) or after (mythical critter) the great extinction? ('real' - 'mythical'");
+		System.out.println("Were you born before (Real critter) or after (mythical critter) the great extinction? ('former' - 'subsequent'");
 		
 			
 		while (firstChoice == false){
 			answer = choice.next();
-		if (answer.equals("real")){
+		if (answer.equals("former")||answer.equals("Former")||answer.equals("former ")||answer.equals("Former ")){
 				you.rep = you.rep + 1;
 				you.Mrep = you.Mrep - 1;
 				firstChoice = true;
-			}else if (answer.equals("mythical")){
+				former = true;
+				System.out.println("You are a former race");
+			}else if (answer.equals("subsequent")||answer.equals("Subsequent")||answer.equals("subsequent ")||answer.equals("Subsequent ")){
 				you.Mrep = you.Mrep + 1;
 				you.rep = you.rep - 1;
 				firstChoice = true;
+				subsequent = true;
+				System.out.println("You are a subsequent race");
 			}else{
 				System.out.println("Say either 'real' or 'mythical'");
 			}
 		}
-	
+		
+		
+
 	}
 }
- 
+
 
