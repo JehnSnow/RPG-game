@@ -49,7 +49,7 @@ public class game {
 				
 
 			}else{
-				System.out.println("Say either 'real' or 'mythical'");
+				System.out.println("Say either 'former' or 'subsequent'");
 			}
 		}
 			
