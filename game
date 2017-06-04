@@ -148,7 +148,7 @@ public class game {
 					System.out.println("some may not appreciate their joking nature");
 					System.out.println("Imp: +2HP, +2 Mdamage, +2 Marmor, +5 mana, +5 intel");
 					System.out.println(" ");
-					System.out.println("Pegasan they say are descendants of the pegasus who got wipped out in the great extinction, pegasan are samller");
+					System.out.println("Pegasan they say are descendants of the pegasus who got wipped out in the great extinction, pegasan are smaller");
 					System.out.println("but no less cunning and friendly in nature");
 					System.out.println("Pegasan: +1 everything except, +3 mana & energy, +2 mastery & intel (no extra speed)");
 				}else if (answer.equals("Murlok")){
