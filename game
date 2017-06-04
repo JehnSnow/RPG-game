@@ -81,7 +81,7 @@ public class game {
 				}
 		}
 	
-		if (sub = true){
+			if (sub = true){
 			System.out.println("We are a proud, smart and strong, though the former think otherwise, its time for a new power to rule");
 			System.out.println("Though the Former are strong, there is an oportune moment to strike if we so choose to take it");
 			System.out.println("if you want to know more about the creatures and their stats say 'info'");
@@ -109,12 +109,14 @@ public class game {
 					you.damage += 2;
 					you.energy += 5;
 					you.mastery += 5;
+					thirdChoice = true;
 				}else if (answer.equals("Imp")){
 					you.hp += 2;
 					you.Mdamage += 2;
 					you.Marmor += 2;
 					you.mana += 5;
 					you.intel += 5;
+					thirdChoice = true;
 				}else if (answer.equals("Pegasan")){
 					you.hp += 1;
 					you.armor +=1;
@@ -125,6 +127,9 @@ public class game {
 					you.mana += 3;
 					you.mastery += 2;
 					you.intel += 2;
+					thirdChoice = true;
+				}else{
+					System.out.println("Say Murlok, Imp, or Pegasan");
 				}
 				
 			}
