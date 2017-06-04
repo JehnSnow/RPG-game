@@ -1,2 +1,2 @@
 # RPG-game
-Made by Elijah, Jake, and Jeremy Robb
+Made by Elijah Gray, and Jeremy Robb
