@@ -1,5 +1,5 @@
 # RPG-game
-Made by Elijah Gray, and Jeremy Robb
+Made by Elijah Gray, Jake Dempsey, and Jeremy Robb
 
 Story: You are a critter, one that you customize yourself kind of like warband (it'll help make you feel you have a personality to your critter) and the world is dominated by other small guys in a semi struggle, semi cooperative way (think like the middle ages), there was a great extinction who knows how long ago, and that's where the humans, and MOST other big animals got wiped out, and now the world is dominated by both real critters (like rats and bunnies) and fantasy critters (like murlocs and unicorns, they are a lot smaller now we need to find a way to say that they used to be big they say, but had to shrink to survive the great extinction)
  
